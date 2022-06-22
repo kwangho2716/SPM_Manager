@@ -1,12 +1,336 @@
 {
   "pins" : [
     {
+      "identity" : "abseil-cpp-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+      "state" : {
+        "revision" : "d302de612e3d57c6f4afaf087da18fba8eac72a7",
+        "version" : "0.20220203.1"
+      }
+    },
+    {
       "identity" : "alamofire",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Alamofire/Alamofire.git",
       "state" : {
         "revision" : "ce5be6fbc6f51414c49f56fc8e2b7c99253d9f8e",
         "version" : "4.9.0"
+      }
+    },
+    {
+      "identity" : "answer_bot_providers_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/answer_bot_providers_sdk_ios",
+      "state" : {
+        "revision" : "33cbae7e5a3771ef6b02d99aced6917019eb1a13",
+        "version" : "2.2.0"
+      }
+    },
+    {
+      "identity" : "answer_bot_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/answer_bot_sdk_ios.git",
+      "state" : {
+        "revision" : "09a43500c83140636eae6fca1f578988643a22c6",
+        "version" : "2.2.0"
+      }
+    },
+    {
+      "identity" : "boringssl-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
+      "state" : {
+        "revision" : "79db6516894a932d0ddaff3b05b9da1e4f6c4069",
+        "version" : "0.9.0"
+      }
+    },
+    {
+      "identity" : "chat_providers_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/chat_providers_sdk_ios",
+      "state" : {
+        "revision" : "9919407abbd24101d229e23eb510e63d48cce59b",
+        "version" : "2.12.0"
+      }
+    },
+    {
+      "identity" : "chat_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/chat_sdk_ios.git",
+      "state" : {
+        "revision" : "291d5389030b72819ff07379ba67eca7e98e7205",
+        "version" : "2.12.0"
+      }
+    },
+    {
+      "identity" : "commonui_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/commonui_sdk_ios",
+      "state" : {
+        "revision" : "4dbdb26735ab0ac0aa0d16333941e0994bde8794",
+        "version" : "6.1.4"
+      }
+    },
+    {
+      "identity" : "core_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/core_sdk_ios",
+      "state" : {
+        "revision" : "be65aecc2e2c72f1323d8a340f8d5fb2e7f480c1",
+        "version" : "2.7.0"
+      }
+    },
+    {
+      "identity" : "firebase-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/firebase-ios-sdk.git",
+      "state" : {
+        "revision" : "111d8d6ad1a1afd6c8e9561d26e55ab1e74fcb42",
+        "version" : "8.15.0"
+      }
+    },
+    {
+      "identity" : "googleappmeasurement",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleAppMeasurement.git",
+      "state" : {
+        "revision" : "ef819db8c58657a6ca367322e73f3b6322afe0a2",
+        "version" : "8.15.0"
+      }
+    },
+    {
+      "identity" : "googledatatransport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleDataTransport.git",
+      "state" : {
+        "revision" : "b905c49326b72211531ed9d7baa02d724828a8dc",
+        "version" : "9.1.4"
+      }
+    },
+    {
+      "identity" : "googleutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleUtilities.git",
+      "state" : {
+        "revision" : "f4abe56ce62a779e64b525eb133c8fc2a84bbc1f",
+        "version" : "7.7.1"
+      }
+    },
+    {
+      "identity" : "grpc-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/grpc/grpc-ios.git",
+      "state" : {
+        "revision" : "2af4f6e9c2b18beae228f50b1198c641be859d2b",
+        "version" : "1.44.2-grpc"
+      }
+    },
+    {
+      "identity" : "gtm-session-fetcher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/gtm-session-fetcher.git",
+      "state" : {
+        "revision" : "4e9bbf2808b8fee444e84a48f5f3c12641987d3e",
+        "version" : "1.7.2"
+      }
+    },
+    {
+      "identity" : "leveldb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/leveldb.git",
+      "state" : {
+        "revision" : "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
+        "version" : "1.22.2"
+      }
+    },
+    {
+      "identity" : "libwebp-xcode",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/libwebp-Xcode",
+      "state" : {
+        "revision" : "2b3b43faaef54d1b897482428428357b7f7cd08b",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "messaging_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/messaging_sdk_ios",
+      "state" : {
+        "revision" : "1a1645c33a00c0705cbe95d536de1b1846e4dcef",
+        "version" : "3.8.5"
+      }
+    },
+    {
+      "identity" : "messagingapi_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/messagingapi_sdk_ios",
+      "state" : {
+        "revision" : "7bc2a7e40dae4c1e519595a7f9978cd639537ddb",
+        "version" : "3.8.5"
+      }
+    },
+    {
+      "identity" : "nanopb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/nanopb.git",
+      "state" : {
+        "revision" : "7ee9ef9f627d85cbe1b8c4f49a3ed26eed216c77",
+        "version" : "2.30908.0"
+      }
+    },
+    {
+      "identity" : "pincache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pinterest/PINCache.git",
+      "state" : {
+        "revision" : "875c654984fb52b47ca65ae70d24852b0003ccd9",
+        "version" : "3.0.3"
+      }
+    },
+    {
+      "identity" : "pinoperation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pinterest/PINOperation.git",
+      "state" : {
+        "revision" : "44d8ca154a4e75a028a5548c31ff3a53b90cef15",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "pinremoteimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pinterest/PINRemoteImage.git",
+      "state" : {
+        "revision" : "611d8ab1c6937bcdfd9d59a967716b0370a332be",
+        "version" : "3.0.3"
+      }
+    },
+    {
+      "identity" : "promises",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/promises.git",
+      "state" : {
+        "revision" : "46c1e6b5ac09d8f82c991061c659f67e573d425d",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "sdk_conversation_kit_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_conversation_kit_ios",
+      "state" : {
+        "revision" : "5aed3272d25fafdb37e089aedd156f9cc964afcb",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "sdk_faye_client_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_faye_client_ios",
+      "state" : {
+        "revision" : "93ca508aca2cbbecd0cb7b890e148ddbf7220986",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "sdk_http_client_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_http_client_ios",
+      "state" : {
+        "revision" : "8fed2efa2c23fe7ff7694d57bda7ea595f06f588",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_ios",
+      "state" : {
+        "revision" : "09c59c193a23f16b4f7c3c2e12160f2b36390710",
+        "version" : "1.4.1"
+      }
+    },
+    {
+      "identity" : "sdk_logger_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_logger_ios",
+      "state" : {
+        "revision" : "b80e7207c36bb6200b315d0c3f4f4df9c560da5f",
+        "version" : "0.4.3"
+      }
+    },
+    {
+      "identity" : "sdk_messaging_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_messaging_ios/",
+      "state" : {
+        "revision" : "f1385fb8837d6c56d7a14d78470aaae46552f084",
+        "version" : "2.4.1"
+      }
+    },
+    {
+      "identity" : "sdk_socket_client_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_socket_client_ios",
+      "state" : {
+        "revision" : "3a48f8e0381f94dd40c431da706bda272fca8353",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "sdk_storage_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_storage_ios",
+      "state" : {
+        "revision" : "0d27514491233815fa914c7261952035c135231c",
+        "version" : "0.4.4"
+      }
+    },
+    {
+      "identity" : "sdk_ui_components_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdk_ui_components_ios",
+      "state" : {
+        "revision" : "2f9687901e38dce836a11c1d8f83d423b710daba",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "sdkconfigurations_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/sdkconfigurations_sdk_ios",
+      "state" : {
+        "revision" : "57c594da47158f319e20aee2746abe25f1f75125",
+        "version" : "1.1.11"
+      }
+    },
+    {
+      "identity" : "support_providers_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/support_providers_sdk_ios",
+      "state" : {
+        "revision" : "fb09f7b605394e274975cbcef7c49e2335f7cb0b",
+        "version" : "5.5.0"
+      }
+    },
+    {
+      "identity" : "support_sdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zendesk/support_sdk_ios.git",
+      "state" : {
+        "revision" : "da1a8684a413206f24ebddfed35fe2499e96fdfd",
+        "version" : "5.5.0"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "e1499bc69b9040b29184f7f2996f7bab467c1639",
+        "version" : "1.19.0"
       }
     }
   ],
