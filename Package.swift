@@ -19,12 +19,16 @@ let package = Package(
         .package(url: "https://github.com/zendesk/sdk_messaging_ios/", from: "2.4.1"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MyPackage",
             dependencies: [
-//                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "firebase", package: "firebase-ios-sdk"),
+                .product(name: "pinterest", package: "PINRemoteImage"),
+                .product(name: "zendesk", package: "answer_bot_sdk_ios"),
+                .product(name: "zendesk", package: "chat_sdk_ios"),
+                .product(name: "zendesk", package: "support_sdk_ios"),
+                .product(name: "zendesk", package: "sdk_messaging_ios"),
             ]),
         .testTarget(
             name: "MyPackageTests",
