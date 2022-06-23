@@ -3,11 +3,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyPackage",
+    name: "AlamoPackage",
     products: [
-        .library(
-            name: "MyPackage",
-            targets: ["MyPackage"]),
+        .library(name: "AlamoPackage", type: .dynamic, targets: ["AlamoPackage"]),
+        .library(name: "OthersPackage", type: .static, targets: ["OthersPackage"])
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "4.9.0"),
@@ -20,9 +19,13 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MyPackage",
+            name: "AlamoPackage",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire"),
+            ]),
+        .target(
+            name: "OthersPackage",
+            dependencies: [
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
@@ -35,6 +38,6 @@ let package = Package(
             ]),
         .testTarget(
             name: "MyPackageTests",
-            dependencies: ["MyPackage"]),
+            dependencies: ["AlamoPackage"]),
     ]
 )
