@@ -104,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleDataTransport.git",
       "state" : {
-        "revision" : "b905c49326b72211531ed9d7baa02d724828a8dc",
-        "version" : "9.1.4"
+        "revision" : "15ccdfd25ac55b9239b82809531ff26605e7556e",
+        "version" : "9.1.2"
       }
     },
     {
@@ -113,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "f4abe56ce62a779e64b525eb133c8fc2a84bbc1f",
-        "version" : "7.7.1"
+        "revision" : "b3bb0c5551fb3f80ca939829639ab5b093edd14f",
+        "version" : "7.7.0"
       }
     },
     {
@@ -145,15 +145,6 @@
       }
     },
     {
-      "identity" : "libwebp-xcode",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/libwebp-Xcode",
-      "state" : {
-        "revision" : "2b3b43faaef54d1b897482428428357b7f7cd08b",
-        "version" : "1.2.1"
-      }
-    },
-    {
       "identity" : "messaging_sdk_ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zendesk/messaging_sdk_ios",
@@ -178,33 +169,6 @@
       "state" : {
         "revision" : "7ee9ef9f627d85cbe1b8c4f49a3ed26eed216c77",
         "version" : "2.30908.0"
-      }
-    },
-    {
-      "identity" : "pincache",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pinterest/PINCache.git",
-      "state" : {
-        "revision" : "875c654984fb52b47ca65ae70d24852b0003ccd9",
-        "version" : "3.0.3"
-      }
-    },
-    {
-      "identity" : "pinoperation",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pinterest/PINOperation.git",
-      "state" : {
-        "revision" : "44d8ca154a4e75a028a5548c31ff3a53b90cef15",
-        "version" : "1.2.1"
-      }
-    },
-    {
-      "identity" : "pinremoteimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pinterest/PINRemoteImage.git",
-      "state" : {
-        "revision" : "611d8ab1c6937bcdfd9d59a967716b0370a332be",
-        "version" : "3.0.3"
       }
     },
     {
